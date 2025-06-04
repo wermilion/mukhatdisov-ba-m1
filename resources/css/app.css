@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-Bahnschrift: 'Bahnschrift Light SemiCondensed', sans-serif;
+}
+
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('../fonts/Bahnschrift Light SemiCondensed.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
